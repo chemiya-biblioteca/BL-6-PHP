@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <title>Formulario de entrada del dato</title>
+</head>
+
+<body>
+    <form action="back.php" method="post">
+      <!--textos-->
+        Ingrese primer valor:
+        <input type="text" name="valor1">
+        <br>
+        Ingrese segundo valor:
+        <input type="text" name="valor2">
+        <br>
+
+      <!--radios-->
+        <input type="radio" name="radio1" value="suma">sumar
+        <br>
+        <input type="radio" name="radio1" value="resta">restar
+        <br>
+
+      <!--checkbox-->
+        <input type="checkbox" name="check1">con decimales
+        <br>
+
+      <!--select-->
+        <select name="operacion">
+          <option ></option>
+            <option value="suma">sumar entera</option>
+            <option value="resta">restar decimal</option>
+          </select>
+        <input type="submit" name="operar">
+      </form>
+</body>
+
+</html>
